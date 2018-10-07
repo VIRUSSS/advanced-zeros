@@ -17,7 +17,7 @@ module.exports = function getZerosCount(number, base) {
         let tmpNumber = number;
         let c = 0;
         while (tmpNumber != 0) {
-            tmpNumber = Math.floor(tmpNumber/item);
+            tmpNumber = Math.floor(tmpNumber / item);
             c += tmpNumber;
         }
         res.push(Math.floor(c / primeNumber[item]));
